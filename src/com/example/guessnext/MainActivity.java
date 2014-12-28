@@ -10,9 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.RelativeLayout;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -31,7 +28,7 @@ public class MainActivity extends ActionBarActivity {
 				pic = (ImageView) findViewById(R.id.imageView1);
 				
 				Random rn = new Random();
-				int i = rn.nextInt(4)+1;
+				int i = rn.nextInt(5)+1;
 				Log.e("i", "String "+i);
 				switch (i) {
 				case 1:
